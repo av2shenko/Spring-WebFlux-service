@@ -1,0 +1,5 @@
+CREATE TABLE word_search(
+ 	id BIGSERIAL PRIMARY KEY,
+ 	word VARCHAR(128),
+ 	path VARCHAR(128)
+);

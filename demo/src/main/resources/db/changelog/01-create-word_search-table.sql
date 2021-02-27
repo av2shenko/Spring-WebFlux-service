@@ -1,0 +1,6 @@
+CREATE TABLE word_search(
+ 	id BIGSERIAL NOT NULL,
+ 	word VARCHAR(128) NOT NULL,
+ 	path VARCHAR(128) NOT NULL,
+ 	CONSTRAINT pk_word_search_id PRIMARY KEY (id)
+);
